@@ -1,0 +1,21 @@
+{
+  "name": "attendance-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Express API that accepts attendance photos and uploads them to Google Drive via a service account.",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "googleapis": "^186.0.0",
+    "multer": "^2.4.0"
+  }
+}
